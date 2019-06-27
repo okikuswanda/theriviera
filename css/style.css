@@ -7,6 +7,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+/* float whatsapp logo */
 .float{
 	position:fixed;
 	width:60px;
@@ -694,6 +696,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item:hover .details span {
   transform: translate3d(0, 0, 0);
 }
+
+
+/* Modal Gallery Section
+--------------------------------*/
+.modal,body.modal-open {
+    padding-right: 0!important
+}
+
+body.modal-open {
+    overflow: auto
+}
+
+body.scrollable {
+    overflow-y: auto
+}
+
+.modal-footer {
+	display: flex;
+	justify-content: flex-start;
+	.btn {
+		position: absolute;
+		right: 10px;
+	}
+}
+
+
 
 /* Testimonials Section
 --------------------------------*/
